@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 function HeroSection() {
   return (
-    <section className="pt-[70px bg-[#151515] lg:overflow-hidden">
+    <section className="pt-[70px] bg-[#151515] lg:overflow-hidden">
       <div className="flex flex-col gap-12 px-4 pt-12 lg:flex-row lg:pt-[197px] lg:pb-[60px] lg:pl-[100px] xl:pb-[197px]">
         <div className="flex flex-col items-center text-center text-white lg:items-start lg:text-left">
           <h1 className="text-5xl/[60px] font-semibold">

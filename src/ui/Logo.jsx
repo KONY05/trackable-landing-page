@@ -1,7 +1,15 @@
+import { Link } from "react-router-dom";
+
 function Logo() {
-    return (
-        <img src="logo.png" alt="Trackabl Logo" className="w-[20%] object-contain lg:w-[10%]" />
-    )
+  return (
+    <Link to="/">
+      <img
+        src="logo.png"
+        alt="Trackabl Logo"
+        className="w-[50%] object-contain "
+      />
+    </Link>
+  );
 }
 
-export default Logo
+export default Logo;
