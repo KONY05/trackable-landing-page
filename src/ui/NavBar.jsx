@@ -58,6 +58,8 @@ function NavBar() {
           </Button>
         </span>
       </div>
+
+      {/* Mobile NavBar */}
       {navOpen && (
         <div className="bg-[#15151570] px-5 py-4 backdrop-blur transition lg:hidden">
           <nav>
